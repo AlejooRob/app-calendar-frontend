@@ -16,7 +16,7 @@ const customStyles = {
       left                  : '50%',
       right                 : 'auto',
       bottom                : 'auto',
-      marginRight           : '-50%',
+      marginRight           : '-10%',
       transform             : 'translate(-50%, -50%)'
     }
 };
@@ -124,7 +124,7 @@ export const CalendarModal = () => {
           className="modal"
           overlayClassName="modal-fondo"
         >
-            <h1> { (activeEvent)? 'Editar evento': 'Nuevo evento' } </h1>
+            <h2> { (activeEvent)? 'Editar evento': 'Nuevo evento' } </h2>
             <hr />
             <form 
                 className="container"
